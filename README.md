@@ -11,7 +11,7 @@ This package adds commands to navigate by Atom's subwords.
   'q':      'vim-mode-plus-user:move-to-next-subword'
 
 'atom-text-editor.vim-mode-plus.operator-pending-mode, atom-text-editor.vim-mode-plus.visual-mode':
-  'i q': 'vim-mode-plus-user:inner-sub-word'
+  'i q': 'vim-mode-plus-user:inner-subword'
   ```
 
   (not included)

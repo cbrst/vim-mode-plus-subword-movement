@@ -23,7 +23,7 @@ class MoveToBeginningOfSubword extends Motion
   moveCursor: (cursor) ->
     cursor.moveToPreviousSubwordBoundary()
 
-class SubWord extends TextObject
+class Subword extends TextObject
   @commandPrefix: 'vim-mode-plus-user'
   selectTextObject: (selection) ->
     wordRegex = selection.cursor.subwordRegExp()
@@ -32,7 +32,7 @@ class SubWord extends TextObject
   selectInner: (s, wordRegex) ->
     swrap(s).setBufferRangeSafely s.cursor.getCurrentWordBufferRange({wordRegex})
 
-class InnerSubWord extends SubWord
+class InnerSubword extends Subword
   @extend()
 
 module.exports = {

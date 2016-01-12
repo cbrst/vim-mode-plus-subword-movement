@@ -21,4 +21,4 @@ module.exports =
     @subscribe MoveToNextSubword.registerCommand()
     @subscribe MoveToEndOfSubword.registerCommand()
     @subscribe MoveToBeginningOfSubword.registerCommand()
-    @subscribe InnerSubWord.registerCommand()
+    @subscribe InnerSubword.registerCommand()
