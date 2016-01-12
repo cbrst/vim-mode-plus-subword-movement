@@ -1,5 +1,17 @@
 # vim-mode-plus-subword-movement package
 
-A short description of your package.
+This package adds add commands to navigate by Atom's subwords.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## Example keymap
+
+```cson
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  'ctrl-e': 'vim-mode-plus-user:move-to-end-of-subword'
+  'Q':      'vim-mode-plus-user:move-to-beginning-of-subword'
+  'q':      'vim-mode-plus-user:move-to-next-subword'
+
+'atom-text-editor.vim-mode-plus.operator-pending-mode, atom-text-editor.vim-mode-plus.visual-mode':
+  'i q': 'vim-mode-plus-user:inner-sub-word'
+  ```
+
+  (not included)
