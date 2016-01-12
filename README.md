@@ -1,6 +1,6 @@
 # vim-mode-plus-subword-movement package
 
-This package adds add commands to navigate by Atom's subwords.
+This package adds commands to navigate by Atom's subwords.
 
 ## Example keymap
 
