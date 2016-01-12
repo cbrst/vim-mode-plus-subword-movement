@@ -1,0 +1,18 @@
+{
+  "name": "vim-mode-plus-subword-movement",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "Subword-movement for vim-mode-plus",
+  "repository": "https://github.com/crshd/vim-mode-plus-subword-movement",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "vim-mode-plus": {
+      "versions": {
+        "^0.1.0": "consumeVim"
+      }
+    }
+  }
+}
