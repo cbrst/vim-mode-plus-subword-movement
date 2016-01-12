@@ -1,7 +1,7 @@
 {
   "name": "vim-mode-plus-subword-movement",
   "main": "./lib/main",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Subword-movement for vim-mode-plus",
   "repository": "https://github.com/crshd/vim-mode-plus-subword-movement",
   "license": "MIT",
