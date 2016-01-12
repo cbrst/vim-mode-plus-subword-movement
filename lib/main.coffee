@@ -16,7 +16,7 @@ module.exports =
       MoveToNextSubword,
       MoveToEndOfSubword,
       MoveToBeginningOfSubword,
-      InnerSubWord
+      InnerSubword
     } = require "./subword-movement"
     @subscribe MoveToNextSubword.registerCommand()
     @subscribe MoveToEndOfSubword.registerCommand()

@@ -39,5 +39,5 @@ module.exports = {
   MoveToNextSubword,
   MoveToEndOfSubword,
   MoveToBeginningOfSubword,
-  InnerSubWord
+  InnerSubword
 }
