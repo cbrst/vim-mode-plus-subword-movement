@@ -6,7 +6,7 @@
   "repository": "https://github.com/crshd/vim-mode-plus-subword-movement",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.0.0 <1.13.0"
   },
   "consumedServices": {
     "vim-mode-plus": {
