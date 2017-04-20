@@ -1,3 +1,6 @@
+# DEPRECATED!
+Subword support is now part of vim-mode-plus: https://github.com/t9md/atom-vim-mode-plus/pull/634
+
 # vim-mode-plus-subword-movement
 
 This package adds commands to navigate by Atom's subwords.
